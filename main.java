@@ -204,3 +204,22 @@ public class NetflixOriginal
 }
 
 }
+/* import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    // Create array of NetflixOriginals
+    NetflixOriginal[] shows = new NetflixOriginal[2];
+
+    // Fill the array using input method
+    for (int i = 0; i < shows.length; i++) {
+      shows[i] = NetflixOriginal.instantiateFromInput(scanner);  // This line only works if method is public static
+      System.out.println(shows[i]);
+    }
+
+    scanner.close();
+  }
+}
+ */
